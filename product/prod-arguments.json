@@ -9,6 +9,7 @@
   },
   "pme": {
     "properties": {
+        "enabledDeprecatedProperties": "true",
         "dependencySource": "BOMREST",
         "dependencyManagement": "org.jboss.eap:jboss-eap-parent:$EAP_VERSION",
         "dependencyRelocations.org.wildfly:@org.jboss.eap:": "$EAP_VERSION",
